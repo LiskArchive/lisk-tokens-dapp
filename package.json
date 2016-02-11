@@ -1,8 +1,8 @@
 {
-	"name": "lisk-dapps-sdk",
+	"name": "lisk-tokens-dapp",
 	"version": "1.0.0",
-	"description": "Official SDK for the Lisk decentralized application platform",
-	"repository": "git@github.com:crypti/DAppToolkit.git",
+	"description": "Lisk tokens dapp",
+	"repository": "git@github.com:LiskHQ/lisk-tokens-dapp.git",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
