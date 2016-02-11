@@ -122,9 +122,9 @@ private.verify = function (block, cb, scope) {
 		return cb("wrong payload hash");
 	}
 
-	modules.api.blocks.getBlock(block.pointId, function (err, cryptiBlock) {
-		if (err || !cryptiBlock) {
-			return cb(err || "block doesn´t exist in crypti");
+	modules.api.blocks.getBlock(block.pointId, function (err, liskBlock) {
+		if (err || !liskBlock) {
+			return cb(err || "block could not be found");
 		}
 
 		modules.api.sql.select({
